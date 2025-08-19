@@ -25,7 +25,7 @@ int main()
                 { 
                     if( v[i+1] > v[j]){
                         cout << "YES" << endl;
-                        cout << i << " " << i+1 << " " << j << endl; 
+                        cout << i+1 << " " << i+2 << " " << j+1 << endl; 
                         flag = true;
                         break;
                     }
